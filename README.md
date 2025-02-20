@@ -16,7 +16,7 @@ Esta práctica de laboratorio busca introducir la biblioteca OpenCV (*Open Compu
 
 Para instalar la biblioteca OpenCV solo digite el siguiente comando desde una terminal: `python -m pip install opencv-contrib-python`. En todo caso, podrá encontrar una explicación detallada en el [siguiente video](https://www.youtube.com/watch?v=yYrWq3BfRuo). 
 
-Si se genera algún error con `pip` solo tiene que actualizarlo, esta es la manera correcta de hacerlo desde una terminal:\ 
+Si se genera algún error con `pip` solo tiene que actualizarlo, esta es la manera correcta de hacerlo desde una terminal: \ 
 `python -m pip install --upgrade pip`\
 `pip install --upgrade pip`
 
