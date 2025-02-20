@@ -39,7 +39,7 @@ $$
 
 $I$ representa una imagen de 3x3 pixeles en escala de grises, donde los valores cercanos a 255 tienen un nivel de intensidad cercano al blanco y los valores más cercanos a 0 tienen un valor de intensidad cercano al negro. En general, los pixeles tienen valores de intensidad entre 0 y 255.
 
-Considere el programa [test_gray.py(test_gray.py) y la imagen [gray.bmp](gray.bmp). Analice el programa, identifique lo que realiza y ejecútelo.
+Considere el programa [test_gray.py](test_gray.py) y la imagen [gray.bmp](gray.bmp). Ejecute el programa, analice su código fuente e identifique lo que realiza así como la salida en la terminal.
 
 De otro lado, para el almacenamiento y visualización de imágenes a color se requiere el uso de tres matrices: una matriz correspondiente al plano de color azul (*blue*), una matriz correspondiente al plano de color verde (*green*) y una matriz correspondiente al plano de color rojo (*red*). Este modelo se conoce como BGR. 
 
