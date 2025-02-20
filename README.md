@@ -22,7 +22,7 @@ Si se genera algún error con `pip` solo tiene que actualizarlo, esta es la mane
 
 Puede usar el programa de prueba [OpenCv.py](OpenCv.py) para verificar que la biblioteca OpenCV se ha instalado correctamente, en particular el programa imprime en la terminal la versión de OpenCV instalada.
 
-Finalmente, con el programa [VerCamara.py](VerCamara.py) se verificará el acceso correcto a la cámara, al ejecutarse deberá abrir una ventana en donde se visualiza la cámara frontal de su computador portátil, también puede usarlo para acceder a una cámara conectada a alguno de los puertos USB. Analice el funcionamiento del programa (VerCamara.py)[VerCamara.py].
+Finalmente, con el programa [VerCamara.py](VerCamara.py) se verificará el acceso correcto a la cámara, al ejecutarse deberá abrir una ventana en donde se visualiza la cámara frontal de su computador portátil, también puede usarlo para acceder a una cámara conectada a alguno de los puertos USB. Analice el funcionamiento del programa [VerCamara.py](VerCamara.py).
 
 
 ## Representación de imágenes en OpenCV
