@@ -63,6 +63,9 @@ A partir del programa modificado, construya un nuevo programa que le solicite al
 
 Para este reto requiere que usted construya un programa que identifique correctamente en las imágenes [blue_car.jfif](blue_car.jfif),  [red_car.jfif](red_car.jfif),  [yellow_car.jfif](yellow_car.jfif) o [empty.jfif](empty.jfif) si el puesto de parqueo correspondiente se encuentra ocupado o disponible. Ayuda: Consulte el funcionamiento de la función `Canny` de OpenCV,
 
+## Retor 4: Construcción de maqueta
+
+En este último reto usted deberá construir la maqueta del proyecto y verificar el funcionamiento del programa del punto anterior haciendo uso de una cámara, para esto considere el programa [VerCamara.py](VerCamara.py).
 
 ## Entrega del laboratorio
 
