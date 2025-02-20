@@ -49,9 +49,10 @@ Para lo anterior, considere el programa [test_image.py](test_image.py) y la imag
 
 ## Reto 1: Identificación de colores
 
+Modifique el programa [test_image.py](test_image.py) del punto anterior para calcular los valores promedio de cada plano de color.
 
+A partir del programa modificado, construya un nuevo programa que le solicite al usuario el nombre de una de las imágenes  [blue_car.jfif](blue_car.jfif),  [red_car.jfif](red_car.jfif) o  [yellow_car.jfif](yellow_car.jfif) e identifique el color del automovil.
 
-Para lo anterior, considere el programa que construyó en el punto 2 de la sección [Sentencias Condicionales](#sentencias-condicionales).
 
 ## Reto 2: Operadores para detección de bordes
 
