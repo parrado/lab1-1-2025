@@ -39,11 +39,13 @@ $$
 
 $I$ representa una imagen de 3x3 pixeles en escala de grises, donde los valores cercanos a 255 tienen un nivel de intensidad cercano al blanco y los valores más cercanos a 0 tienen un valor de intensidad cercano al negro. En general, los pixeles tienen valores de intensidad entre 0 y 255.
 
-Considere el programa [test_gray.py](test_gray.py) y la imagen [gray.bmp](gray.bmp). Ejecute el programa, analice su código fuente e identifique lo que realiza así como la salida en la terminal.
+Para lo anterior, considere el programa [test_gray.py](test_gray.py) y la imagen [gray.bmp](gray.bmp). Ejecute el programa, analice su código fuente e identifique lo que realiza así como la salida en la terminal.
 
 De otro lado, para el almacenamiento y visualización de imágenes a color se requiere el uso de tres matrices: una matriz correspondiente al plano de color azul (*blue*), una matriz correspondiente al plano de color verde (*green*) y una matriz correspondiente al plano de color rojo (*red*). Este modelo se conoce como BGR. 
 
 La representación BGR se deriva de los colores primarios de la luz, en ese sentido los demás colores se obtienen a partir de mezclas de los tres colores primarios. Por ejemplo, el color amarillo se obtiene con una mezcla de la siguiente manera: valor de azul (*blue*) B=0, verde (*green*) G=255 y rojo (*red*) R=255. De forma similar, un color violeta puede ser obtenido con la siguiente mezla: valor de azul (*blue*) B=255, verde (*green*) G=0 y rojo (*red*) R=255.
+
+Para lo anterior, considere el programa [test_image.py](test_image.py) y la imagen [blue_car.jfif](blue_car.jfif). Ejecute el programa, analice su código fuente e identifique lo que realiza así como la salida en la terminal.
 
 ## Reto 1: Identificación de colores
 
@@ -68,4 +70,4 @@ El informe de laboratorio y el enlace al repositorio de GitHub deben ser compart
 ## Referencias
 
 <a id="1">[1]</a> 
-OpenCV team, About OpenCV",url=[https://opencv.org/](https://opencv.org/about/).
+OpenCV team, "About OpenCV",url=[https://opencv.org/](https://opencv.org/about/).
