@@ -49,7 +49,7 @@ Para lo anterior, considere el programa [test_image.py](test_image.py) y la imag
 
 ## Reto 1: Generación de una imagen monocromática
 
-Construya un programa que genere una imgaen de tamaño 640x480 pixeles que contenga en el centro un cuadrado blanco de 200x200 pixeles, el resto de la imagen debe ser negra.
+Construya un programa que genere una imagen de tamaño 640x480 pixeles que contenga en el centro un cuadrado blanco de 200x200 pixeles, el resto de la imagen debe ser negra.
 
 ## Reto 2: Identificación de colores
 
