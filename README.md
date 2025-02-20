@@ -27,7 +27,7 @@ Finalmente, con el programa [VerCamara.py](VerCamara.py) se verificará el acces
 
 ## Representación de imágenes en OpenCV
 
-Desd el punto de vista de la visión por computadora, las imágenes son representadas como matrices o arreglos bidimensionales, en donde el número de columnas corresponde al ancho de la imagen en pixeles y el número de filas corresponde al alto de la imagen en pixeles. Por ejemplo, en la siguiente ecuación
+Desde el punto de vista de la visión por computadora, las imágenes son representadas como matrices o arreglos bidimensionales, en donde el número de columnas corresponde al ancho de la imagen en pixeles y el número de filas corresponde al alto de la imagen en pixeles. Por ejemplo, en la siguiente ecuación
 
 $$
 I = \begin{pmatrix}
@@ -37,7 +37,13 @@ I = \begin{pmatrix}
 \end{pmatrix}
 $$
 
-$I$ representa una imagen de 3x3 pixeles en escala de grises, donde los valores más cercanos a 255 tienen un nivel de intensidad cercano al blanco y los valores más cercanos a 0 tienen un valor de intensidad más cercano al negro.
+$I$ representa una imagen de 3x3 pixeles en escala de grises, donde los valores cercanos a 255 tienen un nivel de intensidad cercano al blanco y los valores más cercanos a 0 tienen un valor de intensidad cercano al negro. En general, los pixeles tienen valores de intensidad entre 0 y 255.
+
+Considere el programa [test_gray.py(test_gray.py) y la imagen [gray.bmp](gray.bmp). Analice el programa, identifique lo que realiza y ejecútelo.
+
+De otro lado, para el almacenamiento y visualización de imágenes a color se requiere el uso de tres matrices: una matriz correspondiente al plano de color azul (*blue*), una matriz correspondiente al plano de color verde (*green*) y una matriz correspondiente al plano de color rojo (*red*). Este modelo se conoce como BGR. 
+
+La representación BGR se deriva de los colores primarios de la luz, en ese sentido los demás colores se obtienen a partir de mezclas de los tres colores primarios. Por ejemplo, el color amarillo se obtiene con una mezcla de la siguiente manera: valor de azul (*blue*) B=0, verde (*green*) G=255 y rojo (*red*) R=255. De forma similar, un color violeta puede ser obtenido con la siguiente mezla: valor de azul (*blue*) B=255, verde (*green*) G=0 y rojo (*red*) R=255.
 
 ## Reto 1: Identificación de colores
 
