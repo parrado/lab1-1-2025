@@ -54,7 +54,7 @@ Construya un programa que genere una imagen de tamaño 640x480 pixeles que conte
 
 ## Reto 2: Identificación de colores
 
-Modifique el programa [test_image.py](test_image.py) del punto anterior para calcular los valores promedio de cada plano de color.
+Modifique el programa [test_image.py](test_image.py) para calcular los valores promedio de cada plano de color.
 
 A partir del programa modificado, construya un nuevo programa que le solicite al usuario el nombre de una de las imágenes  [blue_car.jfif](blue_car.jfif),  [red_car.jfif](red_car.jfif) o  [yellow_car.jfif](yellow_car.jfif) e identifique el color del automovil.
 
