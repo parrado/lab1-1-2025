@@ -14,19 +14,15 @@ Esta práctica de laboratorio busca introducir el uso de la biblioteca OpenCV (*
 
 ## Instalación de OpenCV
 
-Para instalar la biblioteca OpenCV solo digita el siguiente comando desde una terminal: python -m pip install opencv-contrib-python
-La explicación completa la encontrarás en el [siguiente video](https://www.youtube.com/watch?v=yYrWq3BfRuo). 
+Para instalar la biblioteca OpenCV solo digite el siguiente comando desde la línea de comandos: `python -m pip install opencv-contrib-python`. En todo caso, podrá encontrar una explicación detallada en el [siguiente video](https://www.youtube.com/watch?v=yYrWq3BfRuo). 
 
-Si se genera algún error con pip solo tienes que actualizarlo, esta es la manera correcta:
-Desde línea de comandos actualizas pip
-python -m pip install --upgrade pip
-C:\Users\Usuario\Desktop\Python> pip install --upgrade pip
+Si se genera algún error con pip solo tiene que actualizarlo, esta es la manera correcta de hacerlo desde línea de comandos: 
+`python -m pip install --upgrade pip`
+`pip install --upgrade pip`
 
-Una vez instalada, usa el programa de prueba OpenCv.py
-Lo ejecutas desde la consola (terminal) con el comando 
-python.exe OpenCv.py
+Puede usar el programa de prueba [OpenCv.py](OpenCv.py) para verificar que la biblioteca OpenCV se ha instalado correctamente, ya que el programa imprime en la terminal la versión de OpenCV instalada.
 
-A este punto ya has validado la versión de OpenCv , ahora vamos a probar la cámara, para ello debes ejecutar el programa VerCamara.py con la siguiente instrucción:
+ahora vamos a probar la cámara, para ello debes ejecutar el programa VerCamara.py con la siguiente instrucción:
 python.exe VerCamara.py
 El detalle lo encontrará en el siguiente enlace.
 
