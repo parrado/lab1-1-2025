@@ -47,14 +47,18 @@ La representación BGR se deriva de los colores primarios de la luz, en ese sent
 
 Para lo anterior, considere el programa [test_image.py](test_image.py) y la imagen [blue_car.jfif](blue_car.jfif). Ejecute el programa, analice su código fuente e identifique lo que realiza así como la salida en la terminal.
 
-## Reto 1: Identificación de colores
+## Reto 1: Generación de una imagen monocromática
+
+Construya un programa que genere una imgaen de tamaño 640x480 pixeles que contenga en el centro un cuadrado blanco de 200x200 pixeles, el resto de la imagen debe ser negra.
+
+## Reto 2: Identificación de colores
 
 Modifique el programa [test_image.py](test_image.py) del punto anterior para calcular los valores promedio de cada plano de color.
 
 A partir del programa modificado, construya un nuevo programa que le solicite al usuario el nombre de una de las imágenes  [blue_car.jfif](blue_car.jfif),  [red_car.jfif](red_car.jfif) o  [yellow_car.jfif](yellow_car.jfif) e identifique el color del automovil.
 
 
-## Reto 2: Operadores para detección de bordes
+## Reto 3: Operadores para detección de bordes
 
 Para este reto requiere que usted construya un programa que identifique correctamente en las imágenes [blue_car.jfif](blue_car.jfif),  [red_car.jfif](red_car.jfif),  [yellow_car.jfif](yellow_car.jfif) o [empty.jfif](empty.jfif) si el puesto de parqueo correspondiente se encuentra ocupado o disponible. Ayuda: Consulte el funcionamiento de la función `Canny` de OpenCV,
 
