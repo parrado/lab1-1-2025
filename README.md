@@ -22,15 +22,22 @@ Si se genera algún error con `pip` solo tiene que actualizarlo, esta es la mane
 
 Puede usar el programa de prueba [OpenCv.py](OpenCv.py) para verificar que la biblioteca OpenCV se ha instalado correctamente, en particular el programa imprime en la terminal la versión de OpenCV instalada.
 
-Finalmente, con el programa (VerCamara.py)[VerCamara.py] se verificará el acceso correcto a la cámara, al ejecutarse deberá abrir una ventana en donde se visualiza la cámara frontal de su computador portátil, también puede usarlo para acceder a una cámara conectada a alguno de los puertos USB. Analice el funcionamiento del programa (VerCamara.py)[VerCamara.py].
+Finalmente, con el programa [VerCamara.py](VerCamara.py) se verificará el acceso correcto a la cámara, al ejecutarse deberá abrir una ventana en donde se visualiza la cámara frontal de su computador portátil, también puede usarlo para acceder a una cámara conectada a alguno de los puertos USB. Analice el funcionamiento del programa (VerCamara.py)[VerCamara.py].
 
 
 ## Representación de imágenes en OpenCV
 
+Desd el punto de vista de la visión por computadora, las imágenes son representadas como matrices o arreglos bidimensionales, en donde el número de columnas corresponde al ancho de la imagen en pixeles y el número de filas corresponde al alto de la imagen en pixeles. Por ejemplo, en la siguiente ecuación
 
+$$
+I = \begin{pmatrix}
+  121 & 240 & 30 \\
+  1784 & 58 & 161 \\
+  75 & 18 & 93
+\end{pmatrix}
+$$
 
-
-
+$I$ representa una imagen de 3x3 pixeles en escala de grises, donde los valores más cercanos a 255 tienen un nivel de intensidad cercano al blanco y los valores más cercanos a 0 tienen un valor de intensidad más cercano al negro.
 
 ## Reto 1: Identificación de colores
 
