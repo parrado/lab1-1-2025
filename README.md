@@ -58,10 +58,14 @@ Modifique el programa [test_image.py](test_image.py) para calcular los valores p
 
 A partir del programa modificado, construya un nuevo programa que le solicite al usuario el nombre de una de las imágenes  [blue_car.jfif](blue_car.jfif),  [red_car.jfif](red_car.jfif) o  [yellow_car.jfif](yellow_car.jfif) e identifique el color del automovil.
 
+Asegúrese que la identificación se realice a través de una función llamada `identifyColor`
+
 
 ## Reto 3: Operadores para detección de bordes
 
-Para este reto requiere que usted construya un programa que identifique correctamente en las imágenes [blue_car.jfif](blue_car.jfif),  [red_car.jfif](red_car.jfif),  [yellow_car.jfif](yellow_car.jfif) o [empty.jfif](empty.jfif) si el puesto de parqueo correspondiente se encuentra ocupado o disponible. Ayuda: Consulte el funcionamiento de la función `Canny` de OpenCV,
+Para este reto requiere que usted construya un programa que identifique correctamente en las imágenes [blue_car.jfif](blue_car.jfif),  [red_car.jfif](red_car.jfif),  [yellow_car.jfif](yellow_car.jfif) o [empty.jfif](empty.jfif) si el puesto de parqueo correspondiente se encuentra ocupado o disponible. Ayuda: Consulte el funcionamiento de la función `Canny` de OpenCV.
+
+Asegúrese que la identificación se realice a través de una función llamada `identifySpot`
 
 ## Retor 4: Construcción de maqueta
 
